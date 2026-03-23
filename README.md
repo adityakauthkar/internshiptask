@@ -1,59 +1,87 @@
-# InvoiceApp
+# 🧾 Invoice Generator (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+This project is a **responsive invoice template** built using Angular. It allows users to view a structured invoice layout and download it as a PDF.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
-ng serve
-```
+*  Responsive invoice layout (Flexbox)
+*  Dynamic data binding using Angular
+*  Itemized billing table
+*  Automatic total calculation
+*  Download invoice as PDF
+*  Clean and professional UI
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+* **Frontend:** Angular (Standalone Components)
+* **Styling:** CSS (Flexbox)
+* **PDF Generation:** html2pdf.js
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📂 Project Structure
 
-```bash
-ng generate --help
-```
 
-## Building
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## ⚙️ Setup Instructions
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. Clone the repository:
 
-## Running unit tests
+   ```bash
+   git clone <your-repo-link>
+   cd invoice-app
+   ```
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+2. Install dependencies:
 
-```bash
-ng test
-```
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+3. Run the project:
 
-For end-to-end (e2e) testing, run:
+   ```bash
+   ng serve
+   ```
 
-```bash
-ng e2e
-```
+4. Open in browser:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+   ```
+   http://localhost:4200
+   ```
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📸 Functionality
+
+* Displays invoice details including:
+
+  * Company name
+  * Customer name
+  * Date
+  * Item list with quantity & price
+* Calculates total dynamically
+* Allows user to download invoice as PDF
+
+---
+
+---
+
+## 👨‍💻 Author
+
+Aditya Kauthkar
+
+---
+
+## ⭐ Future Improvements
+
+* Add user input form
+* Backend integration (Node.js / MongoDB)
+
+---
